@@ -1,0 +1,25 @@
+table,th, td {
+    border:1px solid black;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: darkblue;
+    
+    
+  }
+  th,td{padding: 10px;}
+  table{width: 100%;}
+  th{text-align: center;}
+  td{text-align: left;}
+  table {
+    border-spacing: 15px;
+  }
+  /* td:nth-child(even){background-color: blue;}
+  th:nth-child(even){background-color: rgb(211, 39, 8);}
+  td:nth-child(odd){background-color:rgb(220, 231, 59);} */
+  tr:nth-child(even) {
+    background-color: yellow;
+  }
+  tr:nth-child(odd) {
+    background-color: red;
+  }
+  tr:hover {background-color: blue;}
